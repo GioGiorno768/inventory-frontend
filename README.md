@@ -64,30 +64,13 @@
 
 ---
 
-## 📂 Struktur Folder
 
-src/
-├── app/
-│ ├── layout.tsx
-│ ├── page.tsx
-│ ├── login/
-│ ├── dashboard/
-│ ├── items/
-│ ├── transactions/
-│ ├── reports/
-│ └── users/
-├── components/
-│ ├── Navbar.tsx
-│ ├── Sidebar.tsx
-│ ├── ModalForm.tsx
-│ └── ...
-├── lib/
-│ ├── api.ts
-│ ├── store.ts
-│ └── utils.ts
-├── hooks/
-│ └── useAuth.ts
-└── styles/
-└── globals.css
+---
 
+## 🧰 Instalasi dan Konfigurasi
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/[username]/smart-inventory-frontend.git
+cd smart-inventory-frontend
 

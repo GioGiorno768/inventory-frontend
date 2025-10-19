@@ -3,21 +3,6 @@
 > **Smart Inventory Management System** adalah aplikasi web berbasis cloud yang dirancang untuk membantu perusahaan dalam mengelola inventori barang secara efisien dan real-time.  
 > Aplikasi ini dikembangkan menggunakan **Next.js + TypeScript**, dan terintegrasi penuh dengan backend **Laravel RESTful API**.
 
----
----
-
-## 📋 Table of Contents
-
-- [Tentang Aplikasi](#tentang-aplikasi)
-- [Tech Stack](#tech-stack)
-- [Fitur Utama](#fitur-utama)
-- [Struktur Folder](#struktur-folder)
-- [Instalasi dan Konfigurasi](#instalasi-dan-konfigurasi)
-- [Environment Variables](#environment-variables)
-- [Perintah Penggunaan](#perintah-penggunaan)
-- [Deployment](#deployment)
-- [Akun Demo](#akun-demo)
-- [Lisensi dan Informasi](#lisensi-dan-informasi)
 
 ---
 

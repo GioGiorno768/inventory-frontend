@@ -69,7 +69,6 @@
 
 ### 🔁 Transaksi Barang
 - Catatan barang masuk & keluar.
-- Upload bukti transaksi (Cloudinary).
 
 ### 📑 Laporan Otomatis
 - Export laporan **barang**, **transaksi**, dan **stok** ke PDF.

@@ -22,6 +22,11 @@ export function middleware(request: NextRequest) {
   if (token && pathname === "/login") {
     return NextResponse.redirect(new URL("/dashboard", request.url));
   }
+  
+  // Jika sudah login dan akses login page
+  if (token && pathname === "/") {
+    return NextResponse.redirect(new URL("/dashboard", request.url));
+  }
 
   // Check role untuk admin-only routes
   if (token && userCookie) {

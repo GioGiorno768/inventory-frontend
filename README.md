@@ -69,8 +69,8 @@
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/GioGiorno768/smart-inventory-frontend.git
-cd smart-inventory-frontend
+git clone https://github.com/GioGiorno768/inventory-frontend.git
+cd inventory-frontend
 ```
 
 

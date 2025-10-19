@@ -65,12 +65,27 @@
 ---
 
 
----
-
 ## 🧰 Instalasi dan Konfigurasi
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/[username]/smart-inventory-frontend.git
+git clone https://github.com/GioGiorno768/smart-inventory-frontend.git
 cd smart-inventory-frontend
+```
+
+
+#### 2️⃣ Install Dependencies
+
+```bash
+npm install
+# atau
+yarn install
+```
+
+
+#### 3️⃣ Jalankan Server Development
+
+```bash
+npm run dev
+```
 

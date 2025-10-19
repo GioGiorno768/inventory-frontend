@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧭 Smart Inventory Management System (Frontend)
 
-## Getting Started
+> **Smart Inventory Management System** adalah aplikasi web berbasis cloud yang dirancang untuk membantu perusahaan dalam mengelola inventori barang secara efisien dan real-time.  
+> Aplikasi ini dikembangkan menggunakan **Next.js + TypeScript**, dan terintegrasi penuh dengan backend **Laravel RESTful API**.
 
-First, run the development server:
+---
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📋 Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Tentang Aplikasi](#tentang-aplikasi)
+- [Tech Stack](#tech-stack)
+- [Fitur Utama](#fitur-utama)
+- [Struktur Folder](#struktur-folder)
+- [Instalasi dan Konfigurasi](#instalasi-dan-konfigurasi)
+- [Environment Variables](#environment-variables)
+- [Perintah Penggunaan](#perintah-penggunaan)
+- [Deployment](#deployment)
+- [Akun Demo](#akun-demo)
+- [Lisensi dan Informasi](#lisensi-dan-informasi)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧾 Tentang Aplikasi
 
-## Learn More
+**Smart Inventory Management System** membantu perusahaan atau tim gudang dalam:
+- Mencatat dan memantau stok barang secara digital.
+- Mengelola transaksi barang masuk dan keluar.
+- Menyediakan laporan otomatis dalam format PDF.
+- Memberikan notifikasi otomatis untuk stok rendah.
+- Mempercepat efisiensi operasional gudang.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Tujuan Utama
+- Digitalisasi manajemen stok barang.
+- Otomatisasi laporan inventori.
+- Monitoring transaksi real-time.
+- Meningkatkan efisiensi operasional gudang/inventori.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Tech Stack
 
-## Deploy on Vercel
+| Kategori | Teknologi | Versi | Keterangan |
+|-----------|------------|--------|-------------|
+| **Framework** | Next.js | 14+ | Frontend utama |
+| **Bahasa** | TypeScript | 5.x | Type-safe JavaScript |
+| **Styling** | Tailwind CSS | 3.x | Styling modern dan responsif |
+| **State Management** | Zustand | Latest | Global store untuk state user & data |
+| **HTTP Client** | Axios | Latest | Komunikasi dengan REST API backend |
+| **Notification** | React Hot Toast | Latest | Notifikasi feedback interaktif |
+| **Chart** | ApexCharts | Latest | Visualisasi data dashboard |
+| **Date Utility** | Date-fns | Latest | Format & manipulasi tanggal |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Fitur Utama
+
+### 🔐 Autentikasi Multi-Role
+- Login dengan JWT Token.
+- Role-based Routing (Admin / Staff).
+
+### 📊 Dashboard Interaktif
+- Statistik real-time jumlah barang & transaksi.
+- Visualisasi grafik menggunakan ApexCharts.
+
+### 📦 Manajemen Barang
+- CRUD (Create, Read, Update, Delete) data barang.
+- Filter & notifikasi stok rendah.
+
+### 🔁 Transaksi Barang
+- Catatan barang masuk & keluar.
+- Upload bukti transaksi (Cloudinary).
+
+### 📑 Laporan Otomatis
+- Export laporan **barang**, **transaksi**, dan **stok** ke PDF.
+- Filter tanggal untuk laporan transaksi.
+
+### 👥 Manajemen User (Admin Only)
+- Tambah, edit, dan hapus user (Admin & Staff).
+
+---
+
+## 📂 Struktur Folder
+
+src/
+├── app/
+│ ├── layout.tsx
+│ ├── page.tsx
+│ ├── login/
+│ ├── dashboard/
+│ ├── items/
+│ ├── transactions/
+│ ├── reports/
+│ └── users/
+├── components/
+│ ├── Navbar.tsx
+│ ├── Sidebar.tsx
+│ ├── ModalForm.tsx
+│ └── ...
+├── lib/
+│ ├── api.ts
+│ ├── store.ts
+│ └── utils.ts
+├── hooks/
+│ └── useAuth.ts
+└── styles/
+└── globals.css
+
+

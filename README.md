@@ -1,6 +1,6 @@
 # 🧭 Smart Inventory Management System (Frontend)
 
-> **Smart Inventory Management System** adalah aplikasi web berbasis cloud yang dirancang untuk membantu perusahaan dalam mengelola inventori barang secara efisien dan real-time.  
+> **Smart Inventory Management System** adalah aplikasi web yang dirancang untuk membantu perusahaan dalam mengelola inventori barang secara efisien dan real-time.  
 > Aplikasi ini dikembangkan menggunakan **Next.js + TypeScript**, dan terintegrasi penuh dengan backend **Laravel RESTful API**.
 
 
